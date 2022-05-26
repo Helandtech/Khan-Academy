@@ -1,0 +1,206 @@
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+  ========================================
+  Layout
+  ========================================
+*/
+
+div {
+    /*height: 100%;
+    width: 100%;*/
+
+    height: 100%;
+    width: 100%;
+}
+
+
+
+header,
+footer {
+    width: 100%;
+    clear: both;
+}
+
+header {
+    height: 10%;
+
+}
+
+
+footer {
+    height: 30%;
+}
+
+section.left,
+section.right {
+    height: 60%;
+    width: 50%;
+}
+
+
+section.left {
+    float: left;
+
+}
+
+section.right {
+    float: right;
+}
+
+/*
+  ========================================
+  nav
+  ========================================
+*/
+
+.Khanlogo {
+    width: 11.5%;
+    margin: 0 175px;
+}
+
+header {
+    padding: 10px 0;
+    border-bottom:1px solid #898e93;
+}
+
+li {
+    display: inline;
+    margin: 0 45px;
+    color: #1965f2;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul.main-menu li {
+    font-size: 16px;
+    position: relative;
+    bottom: 8px;
+    height: 100px;
+    font-weight: 800;
+
+}
+
+ul.main-menu a > li > img {
+    position: relative;
+    top: 13px;
+}
+
+input[type] {
+    border: transparent;
+    border-radius: 5px;
+    background-color: #f0f1f2;
+    padding: 8px;
+    color: #1965f2;
+    font-weight: 700;
+    font-size: 17px;
+  
+    
+}
+
+input::placeholder {
+    color: #1965f2;
+}
+
+/*
+  ========================================
+  left
+  ========================================
+*/
+
+img.middle-picture {
+    width: 75%;
+    float: right;
+
+}
+
+
+/*
+  ========================================
+  right
+  ========================================
+*/
+.right {
+    padding-left: 10px;
+
+}
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 54px;
+    width: 500px;
+    color: #20242b;
+    padding-top: 100px;
+    font-weight: 600;
+}
+
+h1 span {
+    text-decoration: underline;
+    text-decoration-color: #38cda0;
+}
+
+p {
+    font-size: 18px;
+    width: 500px;
+    line-height: 2;
+    color: #20242b;
+    padding-top: 35px;
+}
+
+ul.secondary-menu {
+    padding-top: 35px;
+}
+
+ul.secondary-menu li {
+    font-size: 18px;
+    color: white;
+    border:1px solid #1965f2;
+    background-color: #1965f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    display: inline-block;
+}
+
+/*
+  ========================================
+  footer
+  ========================================
+*/
+
+h2 {
+    font-size: 50px;
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    padding: 35px;
+    padding-top: 40px;
+
+}
+
+footer {
+    background-color: #f7f5f4;
+}
